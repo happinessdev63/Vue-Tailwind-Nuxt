@@ -17,12 +17,12 @@
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0",
+    "autoprefixer": "^8.6.4",
     "babel-eslint": "^8.2.1",
     "eslint": "^5.0.1",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-vue": "^4.0.0",
-    "autoprefixer": "^8.6.4",
-    "tailwindcss": "~0.6.6"
+    "nodemon": "^1.11.0",
+    "tailwindcss": "^0.7.0"
   }
 }
