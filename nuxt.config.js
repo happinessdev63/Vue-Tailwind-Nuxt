@@ -41,7 +41,8 @@ module.exports = {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    'nuxt-imagemin'
   ],
   /*
   ** Axios module configuration
@@ -61,7 +62,14 @@ module.exports = {
       allChunks: true
     },
     extend(config, ctx) {
-      
+      const svgRule = config.module.rules.find(rule => rule.test.test('.svg'));
+ 
+      svgRule.test = /\.(png|jpe?g|gif|webp)$/;
+ 
+      config.module.rules.push({
+        test: /\.svg$/,
+        loader: 'vue-svg-loader',
+      })
     }
   }
 }
