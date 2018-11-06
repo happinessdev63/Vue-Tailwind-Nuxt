@@ -72,13 +72,7 @@ let colors = {
   'orange-lighter': '#fcd9b6',
   'orange-lightest': '#fff5eb',
 
-  'yellow-darkest': '#453411',
-  'yellow-darker': '#684f1d',
-  'yellow-dark': '#f2d024',
-  'yellow': '#ffed4a',
-  'yellow-light': '#fff382',
-  'yellow-lighter': '#fff9c2',
-  'yellow-lightest': '#fcfbeb',
+  'yellow': '#ffcc00',
 
   'green-darkest': '#0f2f21',
   'green-darker': '#1a4731',
@@ -96,13 +90,11 @@ let colors = {
   'teal-lighter': '#a0f0ed',
   'teal-lightest': '#e8fffe',
 
-  'blue-darkest': '#12283a',
-  'blue-darker': '#1c3d5a',
-  'blue-dark': '#2779bd',
-  'blue': '#3490dc',
-  'blue-light': '#6cb2eb',
-  'blue-lighter': '#bcdefa',
-  'blue-lightest': '#eff8ff',
+  'blue-darkest': '#394b70',
+  'blue-darker': '#003399',
+  'blue-dark': '#194cb2',
+  'blue': '#3366cc',
+  'blue-light': '#e9f1fe',
 
   'indigo-darkest': '#191e38',
   'indigo-darker': '#2f365f',
@@ -194,6 +186,7 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Helvetica Neue',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -204,7 +197,6 @@ module.exports = {
       'Cantarell',
       'Fira Sans',
       'Droid Sans',
-      'Helvetica Neue',
       'sans-serif',
     ],
     'serif': [
@@ -250,6 +242,7 @@ module.exports = {
   */
 
   textSizes: {
+    '2xs': '.625rem',     // 10px
     'xs': '.75rem',     // 12px
     'sm': '.875rem',    // 14px
     'base': '1rem',     // 16px
