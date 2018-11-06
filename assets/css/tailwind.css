@@ -36,6 +36,13 @@
  * @import "components/forms";
  */
 
+
+ a {
+     @apply no-underline;
+     @apply text-blue;
+ }
+
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
@@ -69,4 +76,25 @@
  }
  .box-sizing-border {
     box-sizing: border-box;
+ }
+
+ @responsive {
+    .flex-order-1 {
+        order: 1;
+    }
+    .flex-order-2 {
+        order: 2;
+    }
+    .flex-order-3 {
+        order: 3;
+    }
+    .flex-order-4 {
+        order: 4;
+    }
+    .flex-order-5 {
+        order: 5;
+    }
+    .flex-order-6 {
+        order: 6;
+    }
  }
