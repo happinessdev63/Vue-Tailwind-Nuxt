@@ -13,6 +13,20 @@ module.exports = {
       content: [
         './**/*.html',
         './**/*.vue'
+      ],
+      extractors: [
+        {
+          extractor: class TailwindExtractor {
+            static extract(content) {
+              return content.match(/[A-Za-z0-9-_:\/]+/g) || [];
+            }
+          },
+          extensions: ['html', 'vue']
+        }
+      ],
+      whitelist: [
+        'router-link-active',
+        'router-link-exact-active'
       ]
     }) : null,
     require('autoprefixer')
