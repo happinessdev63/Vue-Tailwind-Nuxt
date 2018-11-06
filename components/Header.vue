@@ -1,29 +1,109 @@
 <template>
-  <header>
+  <header class="fixed lg:static">
     <div class="bg-blue-light">
       <div class="md:hidden text-center pt-3 pb-2">
         <a href="/"><alt-logo style="width: 203.1px; height: 30.2px" /></a>
       </div>
       <div class="hidden md:block max-w-2xl mx-auto py-3 px-6">
         <div class="flex justify-between items-end">
-          <div class="">
+          <div class="flex items-end">
             <a href="/" class="lg:hidden"><alt-logo style="width: 247px; height: 36.7px" /></a>
-            <a href="/" class="hidden lg:inline-block"><logo style="max-width: 247px; height: 67.5px" /></a>
-            <div class="hidden lg:inline-block text-blue font-bold tracking-tight text-xs pl-2">STATE-SPECIFIC LEGAL FORMS LANDLORDS TRUST</div>
+            <a href="/" class="hidden lg:inline-block"><logo style="width: 247px; height: 67.5px" /></a>
+            <div class="mb-2 hidden lg:inline-block text-blue font-bold tracking-tight text-sm pl-2">STATE-SPECIFIC LEGAL FORMS LANDLORDS TRUST</div>
           </div>
-          <button class="bg-white rounded-full shadow" style="width: 247px; height: 46px;">
-            <div class="flex justify-center items-center">
-              <div class="pr-4">
-                <svg class="fill-current text-blue" xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
-                  <path fill="#36C" fill-rule="nonzero" d="M10 10.833c0-.92-.746-1.666-1.667-1.666H7.5A3.333 3.333 0 0 0 4.167 12.5V15A3.333 3.333 0 0 0 7.5 18.333h.833c.92 0 1.667-.746 1.667-1.666v-5.834zm9.167 7.5A3.333 3.333 0 0 0 22.5 15v-2.5a3.333 3.333 0 0 0-3.333-3.333h-.834c-.92 0-1.666.746-1.666 1.666v5.834c0 .92.746 1.666 1.666 1.666h.834zM13.333 0C5.895 0 .24 6.19 0 13.333v.834c0 .46.373.833.833.833h.834c.46 0 .833-.373.833-.833v-.834C2.5 7.36 7.36 2.5 13.333 2.5c5.974 0 10.834 4.86 10.834 10.833h-.007c.005.127.007 8.632.007 8.632a2.202 2.202 0 0 1-2.202 2.202h-5.298a2.5 2.5 0 0 0-2.5-2.5H12.5a2.5 2.5 0 1 0 0 5h9.465a4.702 4.702 0 0 0 4.702-4.702v-8.632C26.428 6.19 20.772 0 13.333 0z"/>
-                </svg>
+          <live-help-btn class="mb-1" />
+        </div>
+      </div>
+    </div>
+    
+    <div class="bg-blue">
+      <div class="md:hidden">
+        <div class="max-w-2xl mx-auto flex justify-between">
+          <div class="flex">
+            <a class="nav-btn text-white border-r border-blue-dark" href="#">
+              <div class="align-middle flex relative relative">
+                <div class="p-3 pr-2"><hamburger-icon style="width: 11px; height: 11px;" class="fill-current text-yellow relative" /></div>
+                <div class="py-3 pr-3">Menu</div>
               </div>
-              <div class="text-left">
-                <div class="text-blue font-bold text-sm">LIVE HELP &amp; SUPPORT</div>
-                <div class="text-blue-darkest font-bold text-2xs">ONLINE NOW!</div>
+            </a>
+          </div>
+          <div class="flex">
+            <a class="nav-btn text-yellow border-l border-blue-dark" href="#">
+              <div class="align-middle flex relative">
+                <div class="p-3">Log In</div>
+                <div class="pr-3"><account-icon style="width: 30px; height: 30px;" class="fill-current text-yellow relative mt-1" /></div>
               </div>
-            </div>
-          </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hidden md:block lg:hidden">
+        <div class="max-w-2xl mx-auto flex justify-between px-3">
+          <div class="flex">
+            <a class="nav-btn text-white" href="#">
+              <div class="align-middle flex relative relative">
+                <div class="p-3 pr-2"><hamburger-icon style="width: 11px; height: 11px;" class="fill-current text-yellow relative" /></div>
+                <div class="py-3 pr-3">Menu</div>
+              </div>
+            </a>
+          </div>
+          <div class="flex">
+            <a class="nav-btn text-yellow" href="#">
+              <div class="p-3">Create New Account</div>
+            </a>
+            <a class="nav-btn text-yellow" href="#">
+              <div class="p-3">Pricing</div>
+            </a>
+            <a class="nav-btn text-yellow" href="#">
+              <div class="align-middle flex relative">
+                <div class="p-3">Log In</div>
+                <div class="pr-3"><account-icon style="width: 30px; height: 30px;" class="fill-current text-yellow relative mt-1" /></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hidden lg:block">
+        <div class="max-w-2xl mx-auto flex justify-between px-3">
+          <div class="flex">
+            <a class="nav-btn text-white" href="#">
+              <div class="p-3">Home</div>
+            </a>
+            <a class="nav-btn text-white" href="#">
+              <div class="p-3">Forms</div>
+            </a>
+            <a class="nav-btn text-white" href="#">
+              <div class="p-3">Tenant Screening</div>
+            </a>
+            <a class="nav-btn text-white" href="#">
+              <div class="p-3">Features</div>
+            </a>
+            <a class="nav-btn text-white" href="#">
+              <div class="p-3">Why Us?</div>
+            </a>
+            <a class="nav-btn text-white" href="#">
+              <div class="p-3">Resources</div>
+            </a>
+            <a class="nav-btn text-white" href="#">
+              <div class="p-3">Help</div>
+            </a>
+          </div>
+          <div class="flex">
+            <a class="nav-btn text-yellow" href="#">
+              <div class="p-3">Create New Account</div>
+            </a>
+            <a class="nav-btn text-yellow" href="#">
+              <div class="p-3">Pricing</div>
+            </a>
+            <a class="nav-btn text-yellow" href="#">
+              <div class="align-middle flex relative">
+                <div class="p-3">Log In</div>
+                <div class="pr-3"><account-icon style="width: 30px; height: 30px;" class="fill-current text-yellow relative mt-1" /></div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -31,13 +111,31 @@
 </template>
 
 <script>
-  import Logo from '~/components/Logo'
-  import AltLogo from '~/components/AltLogo'
+  import Logo from '~/components/svg/Logo'
+  import AltLogo from '~/components/svg/AltLogo'
+  import LiveHelpBtn from '~/components/svg/LiveHelpBtn'
+  import AccountIcon from '~/components/svg/AccountIcon'
+  import HamburgerIcon from '~/components/svg/HamburgerIcon'
   
   export default {
     components: {
       'logo': Logo,
-      'alt-logo': AltLogo
+      'alt-logo': AltLogo,
+      'live-help-btn': LiveHelpBtn,
+      'account-icon': AccountIcon,
+      'hamburger-icon': HamburgerIcon
     }
   }
 </script>
+
+<style scoped>
+  .nav-btn {
+    @apply no-underline;
+    @apply font-bold;
+    @apply text-sm;
+  }
+
+  .nav-btn:hover {
+    @apply bg-blue-dark;
+  }
+</style>

@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col items-stretch min-h-screen text-center">
-    <app-header class="flex-shrink" />
-    <nuxt class="flex-grow"/>
-    <app-footer class="flex-shrink" />
+    <app-header class="flex-shrink w-full" />
+    <nuxt class="flex-grow w-full pt-28 md:pt-32 lg:pt-6"/>
+    <app-footer class="flex-shrink w-full" />
   </div>
 </template>
 
