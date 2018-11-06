@@ -60,3 +60,13 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+ .box-sizing-content {
+    box-sizing: content-box;
+ }
+ .box-sizing-padding {
+    box-sizing: padding-box;
+ }
+ .box-sizing-border {
+    box-sizing: border-box;
+ }
