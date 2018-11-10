@@ -15,6 +15,11 @@
         </div>
       </div>
     </div>
+
+    <div class="mt-20 mb-36">
+      <h2 class="text-blue-darker text-5xl my-4">OUR SERVICES</h2>
+      <div class="text-grey-darkest max-w-lg px-12 leading-normal mx-auto text-lg">Our members enjoy access to tools and services that make their lives as landlords easier than ever, such as lease and rental application builders, tenant screening services, and thousands of forms specific to every U.S. state and Canadian Province</div>
+    </div>
   </main>
 </template>
 
