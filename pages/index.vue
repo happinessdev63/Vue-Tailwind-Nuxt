@@ -4,7 +4,7 @@
       <div class="max-w-2xl mx-auto text-left text-blue p-6 pt-10 lg:pt-16">
         <h1 class="pb-6 text-4xl md:text-5xl">FREE LEASE &amp; <span class="whitespace-no-wrap">RENTAL FORMS</span></h1>
         <div class="text-blue-darkest text-lg font-bold">Become a member to get access to:</div>
-        <ul class="pl-4 pb-6 lg:pb-12 text-blue-darkest text-lg">
+        <ul class="pl-5 pb-6 lg:pb-12 text-blue-darkest text-lg">
           <li class="my-2"><a class="text-blue-darkest text-lg" href="#">Create Lease</a></li>
           <li class="my-2"><a class="text-blue-darkest text-lg" href="#">Tenant Screening</a></li>
           <li class="my-2"><a class="text-blue-darkest text-lg" href="#">Rental Application</a></li>
@@ -16,9 +16,9 @@
       </div>
     </div>
 
-    <div class="mt-20 mb-36">
-      <h2 class="text-blue-darker text-5xl my-4">OUR SERVICES</h2>
-      <div class="text-grey-darkest max-w-lg px-12 leading-normal mx-auto text-lg">Our members enjoy access to tools and services that make their lives as landlords easier than ever, such as lease and rental application builders, tenant screening services, and thousands of forms specific to every U.S. state and Canadian Province</div>
+    <div class="mt-12 lg:mt-20 mb-36">
+      <h2 class="text-blue-darker text-4xl md:text-5xl my-4">OUR SERVICES</h2>
+      <div class="text-grey-darkest max-w-lg px-3 md:px-12 leading-loose mx-auto text-lg">Our members enjoy access to tools and services that make their lives as landlords easier than ever, such as lease and rental application builders, tenant screening services, and thousands of forms specific to every U.S. state and Canadian Province</div>
     </div>
   </main>
 </template>

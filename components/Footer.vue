@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="bg-grey-lightest border-grey-light bg-grey-lightest border-t">
-      <h2 class="py-8 md:py-12 text-3xl md:text-4xl text-blue-darkest">FEATURED ON</h2>
+      <h2 class="py-8 md:py-12 text-4xl md:text-5xl text-blue-darkest">FEATURED ON</h2>
       <div class="max-w-2xl mx-auto flex flex-wrap justify-center md:justify-between pb-6 lg:pb-12 md:px-6">
         <fox-business-logo class="mx-6 md:mx-0 mb-6 h-5 lg:h-7" />
         <cbs-radio-logo class="mx-6 md:mx-0 mb-6 h-5 lg:h-7" />
@@ -74,7 +74,7 @@
               <img class="hidden md:inline-block border-black border rounded box-sizing-content" alt="website security" width="98" height="56" title="SiteLock" src="https://shield.sitelock.com/shield/ezlandlordforms.com" />
             </a>
           </div>
-          <div class="md:flex-order-1 leading-normal text-2xs text-left text-grey-darker mr-6 mt-8 md:mt-0">
+          <div class="md:flex-order-1 lg:leading-normal text-2xs text-left text-grey-darker mr-6 mt-8 md:mt-0">
             <p class="pb-2 lg:pb-0">ezLandlordForms products and services are reviewed and approved by attorneys, accountants, fellow landlords, or industry experts.</p>
             <p class="pb-2 lg:pb-0">ezLandlordForms is not a law firm and our products and services are not a substitute for the advice of an attorney.</p>
             <p class="pb-2 lg:pb-0">Copyright © 2006-2018, ezLandlordForms LLC. All Rights Reserved. | <a class="whitespace-no-wrap text-blue-darker" href="#">Privacy Policy</a> | <a class="whitespace-no-wrap text-blue-darker" href="#">Terms &amp; Conditions</a> | <a class="whitespace-no-wrap text-blue-darker" href="#">ezLandlordForms Affiliate Program</a></p>
