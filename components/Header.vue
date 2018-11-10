@@ -99,7 +99,7 @@
             </a>
             <a class="nav-btn text-yellow" href="#">
               <div class="align-middle flex relative">
-                <div class="p-3">Log In</div>
+                <div class="p-3 pr-2">Log In</div>
                 <div class="pr-3"><account-icon style="width: 30px; height: 30px;" class="fill-current text-yellow relative mt-1" /></div>
               </div>
             </a>
