@@ -78,7 +78,7 @@
             <p class="pb-2 lg:pb-0">ezLandlordForms products and services are reviewed and approved by attorneys, accountants, fellow landlords, or industry experts.</p>
             <p class="pb-2 lg:pb-0">ezLandlordForms is not a law firm and our products and services are not a substitute for the advice of an attorney.</p>
             <p class="pb-2 lg:pb-0">Copyright © 2006-2018, ezLandlordForms LLC. All Rights Reserved. | <a class="whitespace-no-wrap text-blue-darker" href="#">Privacy Policy</a> | <a class="whitespace-no-wrap text-blue-darker" href="#">Terms &amp; Conditions</a> | <a class="whitespace-no-wrap text-blue-darker" href="#">ezLandlordForms Affiliate Program</a></p>
-            <p class="pb-2 lg:pb-0">Version: 1.159.0</p>
+            <p class="pb-2 lg:pb-0">Version: {{this.$config.releaseNumber}}</p>
           </div>
         </div>
       </div>
