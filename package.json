@@ -8,7 +8,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "generate-client": "node tools/generate-client"
   },
   "dependencies": {
     "cross-env": "^5.2.0",
@@ -21,6 +22,7 @@
     "cssnano": "^4.1.7",
     "nodemon": "^1.11.0",
     "nuxt-imagemin": "^1.0.0",
+    "swagger-vue": "^1.0.3",
     "tailwindcss": "^0.7.0",
     "vue-svg-loader": "^0.11.0"
   }
