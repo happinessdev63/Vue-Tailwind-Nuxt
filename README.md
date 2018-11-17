@@ -1,4 +1,4 @@
-# ez-site
+# ezPublicSite
 
 > www.ezlandlordforms.com
 
@@ -10,6 +10,9 @@ $ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
+
+# generate api client
+$ npm run generate-client
 
 # build for production and launch server
 $ npm run build
