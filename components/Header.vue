@@ -50,7 +50,7 @@
           </div>
           <div class="flex">
             <a class="nav-btn text-yellow" href="#">
-              <div class="p-3">Create New Account</div>
+              <div class="p-3">Create Account</div>
             </a>
             <a class="nav-btn text-yellow" href="#">
               <div class="p-3">Pricing</div>
@@ -92,7 +92,7 @@
           </div>
           <div class="flex">
             <a class="nav-btn text-yellow" href="#">
-              <div class="p-3">Create New Account</div>
+              <div class="p-3">Create Account</div>
             </a>
             <a class="nav-btn text-yellow" href="#">
               <div class="p-3">Pricing</div>
