@@ -1,29 +1,177 @@
 <template>
   <main>
-    <div class="hero bg-hero-sm md:bg-hero-lg" >
+    <div class="hero bg-hero-sm md:bg-hero-lg">
       <div class="max-w-2xl mx-auto text-left text-blue p-6 pt-10 lg:pt-16">
-        <h1 class="pb-6 text-4xl md:text-5xl">FREE LEASE &amp; <span class="whitespace-no-wrap">RENTAL FORMS</span></h1>
-        <div class="text-blue-darkest text-lg font-bold">Become a member to get access to:</div>
+        <h1 class="pb-6 text-4xl md:text-5xl">
+          FREE LEASE &amp;
+          <span class="whitespace-no-wrap">RENTAL FORMS</span>
+        </h1>
+        <div
+          class="text-blue-darkest text-lg font-bold"
+        >Become a member to get access to:</div>
         <ul class="pl-5 pb-6 lg:pb-12 text-blue-darkest text-lg">
-          <li class="my-2"><a class="text-blue-darkest text-lg" href="#">Create Lease</a></li>
-          <li class="my-2"><a class="text-blue-darkest text-lg" href="#">Tenant Screening</a></li>
-          <li class="my-2"><a class="text-blue-darkest text-lg" href="#">Rental Application</a></li>
-          <li class="my-2"><a class="text-blue-darkest text-lg" href="#">100's of Forms</a></li>
+          <li class="my-2">
+            <a class="text-blue-darkest text-lg" href="#">Create Lease</a>
+          </li>
+          <li class="my-2">
+            <a class="text-blue-darkest text-lg" href="#">Tenant Screening</a>
+          </li>
+          <li class="my-2">
+            <a class="text-blue-darkest text-lg" href="#">Rental Application</a>
+          </li>
+          <li class="my-2">
+            <a class="text-blue-darkest text-lg" href="#">100's of Forms</a>
+          </li>
         </ul>
         <div class="pb-108 md:pb-80 lg:88">
-          <a href="#" class="md:text-lg bg-yellow shadow-md inline-block py-3 px-10 md:py-4 md:px-12 text-blue-darkest font-bold">Create Lease</a>
+          <a
+            href="#"
+            class="md:text-lg bg-yellow shadow-md inline-block py-3 px-10 md:py-4 md:px-12 text-blue-darkest font-bold"
+          >Create Lease</a>
         </div>
       </div>
     </div>
 
-    <div class="mt-12 lg:mt-20 mb-36">
+    <!-- Our service block -->
+    <div class="mt-12 lg:mt-20 mb-28">
       <h2 class="text-blue-darker text-4xl md:text-5xl my-4">OUR SERVICES</h2>
-      <div class="text-grey-darkest max-w-lg px-6 md:px-12 leading-loose mx-auto text-lg">Our members enjoy access to tools and services that make their lives as landlords easier than ever, such as lease and rental application builders, tenant screening services, and thousands of forms specific to every U.S. state and Canadian Province</div>          
+      <div
+        class="text-grey-darkest max-w-lg px-6 md:px-12 leading-loose mx-auto text-lg"
+      >Our members enjoy access to tools and services that make their lives as landlords easier than ever, such as lease and rental application builders, tenant screening services, and thousands of forms specific to every U.S. state and Canadian Province</div>
+      <div
+        class="mt-16 flex flex-wrap max-w-xs lg:max-w-2xl md:max-w-md mx-auto"
+      >
+        <div class="lg:w-1/4 md:w-1/2 mx-auto">
+          <div class="text-sm text-center">
+            <div class="colImage-Ovel">
+              <a href="/documents/rental-application-forms/">
+                <img
+                  src="~/assets/images/carbonfree.png"
+                  alt="Paperless &amp; Paper Rental Application"
+                >
+              </a>
+            </div>
+            <div class="mt-6">
+              <a
+                href="/documents/rental-application-forms/"
+                class="text-lg mx-3 text-center block mx-5 text-blue leading-tight font-semibold"
+                style="text-transform: uppercase;"
+              >Paperless &amp; Paper Rental Application</a>
+              <p
+                class="mt-3 text-grey-darkest font-bold text-sm pb-8"
+              >Free with Basic Account</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 mx-auto">
+          <div class="text-sm text-center">
+            <div class="colImage-Ovel">
+              <a href="/documents/rental-application-forms/">
+                <img
+                  src="~/assets/images/carbonfree.png"
+                  alt="Paperless &amp; Paper Rental Application"
+                >
+              </a>
+            </div>
+            <div class="mt-6">
+              <a
+                href="/documents/rental-application-forms/"
+                class="text-lg mx-3 text-center block mx-5 text-blue leading-tight font-semibold"
+                style="text-transform: uppercase;"
+              >#1 Rated Lease Agreement</a>
+              <p
+                class="mt-3 text-grey-darkest font-bold text-sm pb-8"
+              >With E-Sign</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 mx-auto">
+          <div class="text-sm text-center">
+            <div class="colImage-Ovel">
+              <a href="/documents/rental-application-forms/">
+                <img
+                  src="~/assets/images/carbonfree.png"
+                  alt="Paperless &amp; Paper Rental Application"
+                >
+              </a>
+            </div>
+            <div class="mt-6">
+              <a
+                href="/documents/rental-application-forms/"
+                class="text-lg mx-3 text-center block mx-5 text-blue leading-tight font-semibold"
+                style="text-transform: uppercase;"
+              >Tenant Screening Services</a>
+              <p
+                class="mt-3 text-grey-darkest font-bold text-sm pb-8"
+              >With Credit & Criminal Reports</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 mx-auto">
+          <div class="text-sm text-center">
+            <div class="colImage-Ovel">
+              <a href="/documents/rental-application-forms/">
+                <img
+                  src="~/assets/images/carbonfree.png"
+                  alt="Paperless &amp; Paper Rental Application"
+                >
+              </a>
+            </div>
+            <div class="mt-6">
+              <a
+                href="/documents/rental-application-forms/"
+                class="text-lg mx-3 text-center block mx-5 text-blue leading-tight font-semibold"
+                style="text-transform: uppercase;"
+              >state-specific Rental Forms</a>
+              <p
+                class="mt-3 text-grey-darkest font-bold text-sm"
+              >Including Canada</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our service -->
+    <!-- Search Form block -->
+    <div class="lg:pt-32 bg-blue text-white text-center">
+      <div class="mx-auto">
+        <div class="title-head yellow">
+          <h2 class="text-yellow text-4xl md:text-5xl" style="text-transform: uppercase;">Find any contract or form</h2>
+          <p class="mt-8 mb-0 lg:text-lg">Access thousands of state-specific forms</p>
+        </div>
+        <div class="lg:max-w-2xl mx-auto">
+          <input
+            type="text"
+            placeholder="Search..."
+            id="searchThis"
+            class="w-full rounded-full text-3xl font-light block"
+            style="font-style: oblique; height: 80px; color: #41547a;"
+          >
+          <button type="button" class="btn search-secbtn">Search
+            <!-- <img
+              src="/content/images/homepage/icn-search.svg"
+              class="search_icn"
+            > -->
+          </button>
+        </div>
+      </div>
+      <div style="display: grid;">
+        <img src="~/assets/images/bg-section.png" alt="...">
+      </div>
     </div>
   </main>
 </template>
 
 <style scoped>
+  .colImage-Ovel {
+    width: 173px;
+    height: 173px;
+    background-color: #ffe066;
+    line-height: 170px;
+    @apply rounded-full;
+    @apply inline-block;
+  }
+
   .hero {
     @apply bg-cover;
     @apply bg-center;
