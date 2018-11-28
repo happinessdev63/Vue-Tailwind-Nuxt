@@ -133,25 +133,29 @@
     </div>
     <!-- End Our service -->
     <!-- Search Form block -->
-    <div class="lg:pt-32 bg-blue text-white text-center">
+    <div class="lg:pt-32 md:pt-20 pt-16 bg-blue text-white text-center">
       <div class="mx-auto">
         <div class="title-head yellow">
-          <h2 class="text-yellow text-4xl md:text-5xl" style="text-transform: uppercase;">Find any contract or form</h2>
-          <p class="mt-8 mb-0 lg:text-lg">Access thousands of state-specific forms</p>
+          <h2
+            class="text-yellow text-4xl md:text-5xl"
+            style="text-transform: uppercase;"
+          >Find any contract or form</h2>
+          <p
+            class="mt-5 mb-0 text-lg"
+          >Access thousands of state-specific forms</p>
         </div>
-        <div class="lg:max-w-2xl mx-auto">
+        <div class="lg:max-w-lg lg:mt-32 lg:mb-24 md:max-w-md md:mt-20 md:mb-10 max-w-xs mt-16 mb-32 mx-auto">
           <input
             type="text"
             placeholder="Search..."
             id="searchThis"
-            class="w-full rounded-full text-3xl font-light block"
-            style="font-style: oblique; height: 80px; color: #41547a;"
+            class="search-input md:search-input-md"
           >
-          <button type="button" class="btn search-secbtn">Search
+          <button type="button" class="search-btn lg:search-btn-lg md:search-btn-md text-white bg-yellow hover:text-yellow hover:bg-blue-darker focus:outline-none">Search
             <!-- <img
               src="/content/images/homepage/icn-search.svg"
               class="search_icn"
-            > -->
+            >-->
           </button>
         </div>
       </div>
@@ -163,6 +167,66 @@
 </template>
 
 <style scoped>
+  .search-input {
+    font-style: oblique;
+    padding-left: 30px;
+    height: 50px;
+    @apply text-blue-darkest;
+    @apply rounded-full;
+    @apply w-full;
+    @apply text-3xl;
+    @apply border-none;
+  }
+  .search-input:focus {
+    @apply bg-white;
+    @apply border-blue-light;
+    @apply outline-none;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  }
+  .search-input::placeholder {
+    @apply text-blue-darkest;
+    @apply opacity-100;
+  }
+  .search-input:-ms-input-placeholder {
+    @apply text-blue-darkest;
+    @apply opacity-100;
+  }
+  .search-input::-ms-input-placeholder {
+    @apply text-blue-darkest;
+    @apply opacity-100;
+  }
+
+  .search-btn {
+    @apply py-1;
+    @apply absolute;
+    @apply text-3xl;
+    margin-top: -45px;
+    margin-left: 65px;
+    /* font-size: 0; */
+    border-radius: 0 30px 30px 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  @responsive {
+    .search-btn-lg {
+      margin-top: -76px;
+      margin-left: 210px;
+      @apply py-5;
+      @apply px-12;
+      @apply rounded-full;
+    }
+    .search-btn-md {
+      margin-top: -76px;
+      margin-left: 130px;
+      @apply py-5;
+      @apply px-12;
+      @apply rounded-full;
+    }
+
+    .search-input-md {
+      height: 80px;
+    }
+  }
+
   .colImage-Ovel {
     width: 173px;
     height: 173px;
