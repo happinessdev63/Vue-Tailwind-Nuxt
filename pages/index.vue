@@ -132,26 +132,30 @@
       </div>
     </div>
     <!-- End Our service -->
+
     <!-- Search Form block -->
-    <div class="lg:pt-32 md:pt-20 pt-16 bg-blue text-white text-center">
+    <div class="lg:pt-20 pt-12 bg-blue text-white text-center">
       <div class="mx-auto">
         <div class="title-head yellow">
           <h2
             class="text-yellow text-4xl md:text-5xl"
             style="text-transform: uppercase;"
           >Find any contract or form</h2>
-          <p
-            class="mt-5 mb-0 text-lg"
-          >Access thousands of state-specific forms</p>
+          <p class="mt-5 mb-0 text-lg">Access thousands of state-specific forms</p>
         </div>
-        <div class="lg:max-w-lg lg:mt-32 lg:mb-24 md:max-w-md md:mt-20 md:mb-10 max-w-xs mt-16 mb-32 mx-auto">
+        <div
+          class="lg:max-w-lg lg:mt-32 lg:mb-24 md:max-w-md md:mt-20 md:mb-10 max-w-xs mt-16 mb-32 mx-auto"
+        >
           <input
             type="text"
             placeholder="Search..."
             id="searchThis"
             class="search-input md:search-input-md"
           >
-          <button type="button" class="search-btn lg:search-btn-lg md:search-btn-md text-white bg-yellow hover:text-yellow hover:bg-blue-darker focus:outline-none">Search
+          <button
+            type="button"
+            class="search-btn lg:search-btn-lg md:search-btn-md text-white bg-yellow hover:text-yellow hover:bg-blue-darker focus:outline-none"
+          >Search
             <!-- <img
               src="/content/images/homepage/icn-search.svg"
               class="search_icn"
@@ -161,6 +165,408 @@
       </div>
       <div style="display: grid;">
         <img src="~/assets/images/bg-section.png" alt="...">
+      </div>
+    </div>
+    <!-- End Search Form block -->
+
+    <!--- Plan block -->
+    <!-- ** desktop & tablet version ** -->
+    <div class="hidden md:block lg:mt-20 mb-28 table-content-md">
+      <div class="container mx-auto">
+        <div class="table-head">
+          <h2
+            class="text-blue-darker text-4xl md:text-5xl my-4"
+          >FLEXIBLE PRICING &amp; BENEFITS</h2>
+          <div
+            class="text-grey-darkest max-w-lg px-6 md:px-12 leading-loose mx-auto text-lg"
+          >We make it easy to find the right plan for you.</div>
+        </div>
+        <div class="table-body mt-8 mx-5">
+          <table
+            class="w-full table-striped bg-transparent text-grey-darkest lg:text-sm md:text-sm text-center mx-auto"
+          >
+            <thead>
+              <tr>
+                <th></th>
+                <th class="py-4 border-l border-grey-light">
+                  <span>FREE ACCOUNT</span>
+                </th>
+                <th class="py-4 border-l border-grey-light">
+                  <span>1 MONTH ACCOUNT</span>
+                </th>
+                <th class="py-4 border-l border-grey-light">
+                  <span>PRO ACCOUNT</span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="first-child">
+                <td></td>
+                <td>
+                  <a
+                    href="/join/"
+                    class="md:text-lg lg:px-8 md:py-4 md:px-3 py-3 px-10 whitespace-no-wrap bg-yellow text-blue inline-block font-bold"
+                  >FREE</a>
+                </td>
+                <td>
+                  <a
+                    href="/join/"
+                    class="md:text-lg lg:px-8 md:py-4 md:px-3 py-3 px-10 whitespace-no-wrap bg-yellow text-blue inline-block font-bold"
+                  >Starting at $9.99</a>
+                </td>
+                <td>
+                  <a
+                    href="/join/"
+                    class="md:text-lg lg:px-8 md:py-4 md:px-3 py-3 px-10 whitespace-no-wrap bg-yellow text-blue inline-block font-bold"
+                  >Starting at $5.99/mo</a>
+                </td>
+              </tr>
+              <tr>
+                <th>Lease Agreement (Free Version)</th>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div>&nbsp;</div>
+                </td>
+                <td>
+                  <div>&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Free Rental Application</th>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Printable Forms</th>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Access To 25+ Landlord Forms</th>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>state-specific Lease Agreement</th>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Lease Builder Wizard</th>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Lease E-Signature</th>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Custom Editable Forms</th>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>100% Money Back Guarantee</th>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Unlimited Access To 500+ Forms</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Document Cloud Storage</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Access All State-Specific Forms</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Unlimited Editing</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Unlimited Phone Support</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Unlimited Live Chat Support</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:hidden mt-12 mb-28 table-content-sm">
+      <div class="container mx-auto">
+        <div class="table-head">
+          <h2
+            class="text-blue-darker text-4xl md:text-5xl my-4"
+          >FLEXIBLE PRICING &amp; BENEFITS</h2>
+          <div
+            class="text-grey-darkest max-w-lg px-6 md:px-12 leading-loose mx-auto text-lg"
+          >We make it easy to find the right plan for you.</div>
+        </div>
+        <div class="table-body mt-8 mx-5">
+          <table
+            class="w-full table-striped bg-transparent text-grey-darkest text-xs text-center mx-auto"
+          >
+            <thead>
+              <tr>
+                <th>Plan Type</th>
+                <th class="py-4 border-l border-grey-light" style="font-size: 10px;">
+                  <span>Free</span>
+                </th>
+                <th class="py-4 border-l border-grey-light" style="font-size: 10px;">
+                  <span>1 Mo</span>
+                </th>
+                <th class="py-4 border-l border-grey-light" style="font-size: 10px;">
+                  <span>Pro</span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Lease Agreement (Free Version)</th>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div>&nbsp;</div>
+                </td>
+                <td>
+                  <div>&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Free Rental Application</th>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Printable Forms</th>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Access To 25+ Landlord Forms</th>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>state-specific Lease Agreement</th>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Lease Builder Wizard</th>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Lease E-Signature</th>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Custom Editable Forms</th>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>100% Money Back Guarantee</th>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Unlimited Access To 500+ Forms</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Document Cloud Storage</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Access All State-Specific Forms</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Unlimited Editing</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Unlimited Phone Support</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Unlimited Live Chat Support</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="checkmark">&nbsp;</div>
+                </td>
+              </tr>
+              <tr class="price-row">
+                <th scope="row">Prices starting at</th>
+                <td>
+                  <div>Free</div>
+                </td>
+                <td>
+                  <div>$9.99</div>
+                </td>
+                <td>
+                  <div>$5.99/mo</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="container">
+        <div class="plan-select"></div>
+        <a href="/join/" class="btn btn_primary">Choose A Plan</a>
       </div>
     </div>
   </main>
@@ -181,7 +587,7 @@
     @apply bg-white;
     @apply border-blue-light;
     @apply outline-none;
-    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
   }
   .search-input::placeholder {
     @apply text-blue-darkest;
@@ -204,7 +610,8 @@
     margin-left: 65px;
     /* font-size: 0; */
     border-radius: 0 30px 30px 0;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
   @responsive {
     .search-btn-lg {
@@ -221,10 +628,41 @@
       @apply px-12;
       @apply rounded-full;
     }
-
     .search-input-md {
       height: 80px;
     }
+  }
+
+  .table-striped tbody tr:nth-of-type(2n + 1) {
+    background-color: rgba(233, 241, 254, 0.5);
+  }
+  .table-content-md table tbody th {
+    text-transform: uppercase;
+    @apply text-left;
+    @apply pl-5;
+    @apply pr-10;
+    @apply w-5/6;
+  }
+  .table-content-sm table tbody th, .table-content-sm table thead tr th:first-child {
+    @apply text-left;
+    white-space: nowrap;
+    font-size: 10px;
+  }
+  table tbody td {
+    @apply border-l;
+    border-color: #d8e3f6;
+  }
+  table tbody tr:not(.first-child) td {
+    @apply p-4;
+  }
+  table tbody tr.first-child {
+    background-color: #e9f1fe !important;
+  }
+  table tbody tr:first-child td {
+    @apply p-3;
+  }
+  table tbody tr:first-child td:first-child {
+    @apply border-l-0;
   }
 
   .colImage-Ovel {
