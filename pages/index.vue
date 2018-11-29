@@ -186,13 +186,22 @@
             <thead>
               <tr>
                 <th></th>
-                <th class="py-4 border-l border-grey-light" style="opacity: 0.9;">
+                <th
+                  class="py-4 border-l border-grey-light"
+                  style="opacity: 0.9;"
+                >
                   <span>FREE ACCOUNT</span>
                 </th>
-                <th class="py-4 border-l border-grey-light" style="opacity: 0.9;">
+                <th
+                  class="py-4 border-l border-grey-light"
+                  style="opacity: 0.9;"
+                >
                   <span>1 MONTH ACCOUNT</span>
                 </th>
-                <th class="py-4 border-l border-grey-light" style="opacity: 0.9;">
+                <th
+                  class="py-4 border-l border-grey-light"
+                  style="opacity: 0.9;"
+                >
                   <span>PRO ACCOUNT</span>
                 </th>
               </tr>
@@ -370,8 +379,8 @@
         </div>
       </div>
     </div>
-
-    <div class="md:hidden mt-12 mb-28 table-content-sm">
+    <!-- Plan mobile block -->
+    <div class="md:hidden mt-12 mb-24 table-content-sm">
       <div class="container mx-auto">
         <div class="table-head">
           <h2
@@ -575,9 +584,15 @@
         <div class="mx-5 my-10">
           <div class="custom-dropdown">
             <select>
-              <option><b>PRO</b> - Starting at 5.99 a month</option>
-              <option><b>1 Mo</b> - Starting at $9.99</option>
-              <option><b>Free</b></option>
+              <option>
+                <b>PRO</b> - Starting at 5.99 a month
+              </option>
+              <option>
+                <b>1 Mo</b> - Starting at $9.99
+              </option>
+              <option>
+                <b>FREE</b>
+              </option>
             </select>
           </div>
           <a
@@ -587,8 +602,40 @@
         </div>
       </div>
     </div>
+    <!-- End Plan block -->
+    <!-- Landlord block -->
+    <div class="pt-12 lg:pt-20 mb-28 bg-blue-light">
+      <h2
+        class="text-blue-darker text-4xl md:text-5xl my-4"
+      >BE A BETTER LANDLORD</h2>
+      <div
+        class="text-grey-darkest max-w-md px-6 md:px-16 leading-loose mx-auto text-lg"
+      >
+        For over 10 years, millions of people have trusted our expertise
+        to guide them in becoming professional landlords.
+      </div>
+      <better-landlord></better-landlord>
+      <div
+        class="mt-16 flex flex-wrap max-w-xs lg:max-w-2xl md:max-w-md mx-auto"
+      ></div>
+    </div>
+    <!-- End Landload block -->
   </main>
 </template>
+
+<script>
+import BetterLandlord from '~/components/svg/BetterLandlord.svg'
+import MsnbcLogo from '~/components/svg/MsnbcLogo.svg'
+import KeyHouseIcon from '~/components/svg/KeyHouseIcon.svg'
+
+export default {
+  components: {
+    BetterLandlord,
+    MsnbcLogo,
+    KeyHouseIcon
+  },
+}
+</script>
 
 <style scoped>
 .search-input {
@@ -699,14 +746,14 @@ table tbody tr:first-child td:first-child {
   background-color: white;
   @apply text-grey-darkest;
   font-size: inherit;
-  padding: .7em;
+  padding: 0.7em;
   padding-right: 2.5em;
   border-width: 2px;
   border-color: #a8bbe1;
   margin: 0;
   border-radius: 3px;
   text-indent: 0.01px;
-  text-overflow: '';
+  text-overflow: "";
   -webkit-appearance: button; /* hide default arrow in chrome OSX */
 }
 
@@ -717,19 +764,20 @@ table tbody tr:first-child td:first-child {
   pointer-events: none;
 }
 
-.custom-dropdown::after { /*  Custom dropdown arrow */
+.custom-dropdown::after {
+  /*  Custom dropdown arrow */
   content: "\25BC";
   height: 1em;
-  font-size: .625em;
+  font-size: 0.625em;
   line-height: 1;
   right: 1.8em;
   top: 50%;
-  margin-top: -.5em;
+  margin-top: -0.5em;
   color: #a8bbe1;
-
 }
 
-.custom-dropdown::before { /*  Custom dropdown arrow cover */
+.custom-dropdown::before {
+  /*  Custom dropdown arrow cover */
   width: 3em;
   right: 0;
   top: 0;
@@ -740,11 +788,11 @@ table tbody tr:first-child td:first-child {
 }
 
 .custom-dropdown select[disabled] {
-  color: rgba(0,0,0,.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .custom-dropdown select[disabled]::after {
-  color: rgba(0,0,0,.1);
+  color: rgba(0, 0, 0, 0.1);
 }
 
 .colImage-Ovel {
